@@ -1,0 +1,23 @@
+.root {
+-fx-base: rgb(18, 65, 65);
+-fx-background: rgb(18, 65, 65);
+-fx-control-inner-background:  rgb(18, 65, 65);
+}
+
+.menu-bar {
+-fx-background-color: linear-gradient(to bottom, -fx-base, derive(-fx-base,30%));
+}
+
+.button {
+-fx-background-color: transparent;
+}
+
+.button:hover {
+-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+-fx-color: -fx-hover-base;
+}
+
+.table-view {
+-fx-table-cell-border-color:derive(-fx-base,+10%);
+-fx-table-header-border-color:derive(-fx-base,+20%);
+}

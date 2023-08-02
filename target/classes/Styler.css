@@ -1,0 +1,43 @@
+.root {
+ -fx-background-color: Black;
+}
+
+.menu-bar {
+
+ -fx-background-color: Black;
+}
+.menu-item {
+   -fx-background-color: Black;
+}
+.menu .label
+{
+    -fx-text-fill: White;
+}
+
+#TextField
+{
+    -fx-control-inner-background:Black;
+   fx-background-color: linear-gradient(to bottom, #f2f2f2, #d4d4d4);
+  -fx-border: 100px solid; -fx-border-color: Grey; 
+   
+}
+#Label
+{
+    -fx-text-fill: White;
+       -fx-font-size: 32px;
+       -fx-font-family: "Arial Black";
+  
+}
+
+#myButton{
+    -fx-text-fill: white;
+    -fx-border-color: #ff0000;
+     -fx-border-width: 5px;
+    -fx-background-color: black;
+    -fx-border-color: transparent, black;
+}
+#myButton:hover {
+  -fx-background-color: #981100;
+  -fx-effect: dropshadow( three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
